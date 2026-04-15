@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.js";
 
 @layer base {
   :root {
@@ -8,6 +7,7 @@
     --color-surface: #FFFFFF;
     --color-primary: #1B2A4A;
     --color-accent: #C0272D;
+    --color-accent-light: #D4494F;
     --color-text: #1C1C1E;
     --color-muted: #6B7280;
     --color-border: #E5E7EB;
